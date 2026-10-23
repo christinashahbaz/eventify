@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Event | Eventify</title><meta name="description" content="Eventify - Create Event">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="header"><div class="container nav-wrap">
+<a href="index.html" class="logo">Event<span>ify</span></a>
+<input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="burger">&#9776;</label>
+<nav class="nav"><a href="index.html">Home</a><a href="events.html">Events</a><a href="gallery.html">Gallery</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="my-tickets.html">My Tickets</a><a href="login.html" class="btn btn-sm btn-outline">Login</a><a href="create-event.html" class="btn btn-sm">Host Event</a></nav>
+</div></header>
+<main><section class="page-hero" style="--img:url('https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=1600&q=70')"><div class="container"><h1>Create a New Event</h1><p>Fill in the details to list your event.</p></div></section>
+<section class="section container narrow"><img src="{U(IMG[1],1200)}" alt="Event preview" class="split-img mb"><form class="form" action="organizer-dashboard.html">
+<fieldset class="card pad"><legend>Basic Info</legend><label>Event Title<input class="input" placeholder="e.g. Neon Nights Music Fest" required></label>
+<label>Category<select class="input"><option>Music</option><option>Tech</option><option>Sports</option><option>Workshops</option><option>Arts</option></select></label>
+<label>Description<textarea class="input" rows="4" placeholder="Tell attendees about your event"></textarea></label></fieldset>
+<fieldset class="card pad"><legend>Date &amp; Venue</legend><div class="form-grid"><label>Date<input type="date" class="input"></label><label>Time<input type="time" class="input"></label></div>
+<label>Venue<input class="input" placeholder="Venue name and city"></label></fieldset>
+<fieldset class="card pad"><legend>Tickets &amp; Media</legend><div class="form-grid"><label>Ticket Price ($)<input type="number" class="input" placeholder="49"></label><label>Total Seats<input type="number" class="input" placeholder="500"></label></div>
+<label>Banner Image URL<input type="url" class="input" placeholder="https://images.unsplash.com/..."></label></fieldset>
+<button class="btn btn-lg btn-block">Publish Event</button></form></section></main>
+<footer class="footer"><div class="container footer-grid">
+<div><a href="index.html" class="logo">Event<span>ify</span></a><p class="muted">Discover, book and host unforgettable events.</p></div>
+<div><h4>Explore</h4><a href="events.html">All Events</a><a href="gallery.html">Past Events</a><a href="reviews.html">Reviews</a></div>
+<div><h4>Organizers</h4><a href="create-event.html">Create Event</a><a href="organizer-dashboard.html">Dashboard</a></div>
+<div><h4>Company</h4><a href="about.html">About Us</a><a href="contact.html">Contact &amp; FAQ</a><a href="terms.html">Terms</a></div>
+</div><p class="container copy">&copy; 2026 Eventify. All rights reserved.</p></footer>
+</body></html>
